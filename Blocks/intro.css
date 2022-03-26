@@ -1,0 +1,36 @@
+.intro {
+  max-width: 785px;
+  margin-top: 92px;
+  margin-bottom: 0px;
+}
+.intro__title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 1.07;
+}
+
+.intro__quote {
+  font-size: 24px;
+  line-height: 1.42;
+  max-width: 720px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+
+.intro__quote__author {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  max-width: 720px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.intro__description {
+  font-size: 16px;
+  line-height: 1.63;
+  max-width: 720px;
+  margin-top: 32px;
+  margin-bottom: 0px;
+}

@@ -1,0 +1,28 @@
+.header {
+  max-width: 984px;
+  margin-top: 90px;
+  margin-bottom: 0px;
+}
+
+.header__title {
+  max-width: 793px;
+  margin: 0 auto;
+  font-size: 96px;
+  line-height: 1.04;
+  text-align: center;
+  font-weight: 900;
+}
+
+.header__description {
+  margin: 32px auto 64px auto;
+  max-width: 720px;
+  height: 72px;
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.header__image {
+  max-width: 100%;
+  display: block;
+}

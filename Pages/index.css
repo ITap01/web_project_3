@@ -1,0 +1,11 @@
+@import url(../Vendor/normalize.css);
+@import url(../Blocks/page.css);
+@import url(../Fonts/fonts.css);
+@import url(../Blocks/logo.css);
+@import url(../Blocks/header.css);
+@import url(../Blocks/main.css);
+@import url(../Blocks/intro.css);
+@import url(../Blocks/photo-grid.css);
+@import url(../Blocks/places.css);
+@import url(../Blocks/cover.css);
+@import url(../Blocks/footer.css);
