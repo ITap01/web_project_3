@@ -1,11 +1,40 @@
 .photo-grid {
+  margin-top: 118px;
+  margin-bottom: 48px;
+  padding-left: 48px;
+  padding-right: 48px;
 }
 
 .photo-grid__photos {
-  margin-top: 118px;
-  margin-bottom: 48px;
-  max-width: 1184px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 16px;
+  width: 100%;
+}
+
+@media screen and (min-width: 1279px) {
+  .photo-grid {
+    width: 1184px;
+  }
+}
+
+@media screen and (max-width: 919px) {
+  .photo-grid {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .photo-grid__photo {
+    width: 352px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .photo-grid__photos {
+    gap: 12px;
+  }
+
+  .photo-grid__photo {
+    width: 100%;
+  }
 }

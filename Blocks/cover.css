@@ -1,12 +1,13 @@
 .cover {
   background-image: url(../Images/background.svg);
-  margin-top: 92px;
-  margin-bottom: 92px;
+  margin: 92px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
+  background-repeat: no-repeat;
   max-width: 1184px;
+  background-position: center;
 }
 
 .cover::before {
@@ -67,4 +68,34 @@
 
 .cover__button:hover {
   background: #0063d2;
+}
+
+@media screen and (max-width: 1024) {
+  .cover__description {
+  }
+}
+
+@media screen and (max-width: 655px) {
+  .cover {
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
+
+  .cover__description {
+    max-width: 288px;
+    margin-top: 46px;
+    margin-bottom: 46px;
+  }
+
+  .cover__title {
+    max-width: 288px;
+    margin-bottom: 0;
+    font-size: 32px;
+  }
+
+  .cover__subtitle {
+    margin: 16px 0px;
+    max-width: 280px;
+    font-size: 14px;
+  }
 }
