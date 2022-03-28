@@ -22,7 +22,7 @@
 }
 
 .cover:hover::before {
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 .cover__description {
@@ -70,12 +70,7 @@
   background: #0063d2;
 }
 
-@media screen and (max-width: 1024) {
-  .cover__description {
-  }
-}
-
-@media screen and (max-width: 655px) {
+@media screen and (max-width: 650px) {
   .cover {
     margin-top: 64px;
     margin-bottom: 64px;
@@ -83,8 +78,8 @@
 
   .cover__description {
     max-width: 288px;
-    margin-top: 46px;
-    margin-bottom: 46px;
+    margin-top: 23.5px;
+    margin-bottom: 23.5px;
   }
 
   .cover__title {
@@ -97,5 +92,11 @@
     margin: 16px 0px;
     max-width: 280px;
     font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 538px) {
+  .cover {
+    height: 254px;
   }
 }
